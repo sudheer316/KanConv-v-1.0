@@ -38,8 +38,8 @@ Dim strRoboappPath As String, varProc As Variant
 On Error Resume Next
 
 
-strRoboappPath = "c:\Program Files\Kannada University\Kannada University\Kuvempu Kannada Thantramsha 2.0" & "\Kuvempu.exe"
-'Read_registry_Value("SOFTWARE\Kannada University\KKT v2.0 Test Setup\2.01.1110", "Path") & "\Kuvempu.exe" 'Your path here
+strRoboappPath = "c:\Program Files\Kannada \Kannada \KanForge 2.0" & "\Kuvempu.exe"
+'Read_registry_Value("SOFTWARE\Kannada \KKT v2.0 Test Setup\2.01.1110", "Path") & "\Kuvempu.exe" 'Your path here
 
 varProc = Shell(strRoboappPath, 1)
 End Sub
@@ -56,7 +56,7 @@ Dim tempVals() As String
 
 'Dim KeyName As String
 
-'KeyName = "SOFTWARE\Kannada University\KKT v2.0 Test Setup\2.01.1110"
+'KeyName = "SOFTWARE\Kannada \KKT v2.0 Test Setup\2.01.1110"
               
  'KeyName = "Software\Microsoft\Office\" & Application.Version & "\Common\UserInfo"
 
